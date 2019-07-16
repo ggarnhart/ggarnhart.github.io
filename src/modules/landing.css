@@ -1,0 +1,139 @@
+.landing-background{
+    height: 100vh;
+    widows: 100vw;
+    /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+    background-image: url('greg.jpeg');
+    background-size: cover;
+}
+
+.greg-container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greg-center-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greg-full-height{
+    min-height: 100vh;
+}
+
+.greg-card{
+    /* min-width: 50vw; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.white-background{
+    background-color: #fefefe;
+    color: #111111;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
+.greg-flex-row{
+    display: flex;
+}
+
+.purple-background{
+    background-color: #5e4ab6;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 9px 12px;
+    color: #f3f3f3;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:focus{
+    outline: 0;
+}
+
+.white-font{
+    color: #f3f3f3;
+}
+
+.no-top-margin{
+    margin-top: 0;
+}
+
+.work-background{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.job-card{
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 10px;
+}
+
+.job-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.personal-background{
+    background-color: #1C2022;
+    padding-bottom: 15px;
+}
+
+.faded-black{
+    color: #3f474c;
+    opacity: .8;
+}
+
+.project{
+    width: 80vw;
+    border-radius: 15px;
+    background-color: #050606;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-project{
+    color: #1FCCFB;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.orange-project{
+    /* color: #fb582b; */
+    color: #fc8463;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.left-indent{
+    margin-left: 2em;
+}
