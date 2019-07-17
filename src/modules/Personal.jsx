@@ -21,8 +21,8 @@ const stagger = {
 
 class Personal extends Component{
     renderProjects() {
-        return _.map(projectListings, ({title, description, link, _key}) => {
-            return <Project title={title} _key={_key} link={link} description={description}/>
+        return _.map(projectListings, ({title, description, link, _key, website_name}) => {
+            return <Project title={title} _key={_key} link={link} description={description} website_name={website_name}/>
         });
     }
 
@@ -30,7 +30,7 @@ class Personal extends Component{
         return(
             <div className="personal-background" id="personal">
                 <br/>
-                <div className="container">
+                <div className="greg-container">
                     <h1 className="faded-black">&lt; Projects /&gt;</h1>
                     <motion.div className="full-height" variants={stagger} initial="hidden" animate="visible">
                         {this.renderProjects()}

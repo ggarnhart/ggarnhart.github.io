@@ -3,7 +3,7 @@ import './App.css';
 import Landing from './modules/Landing';
 import Work from './modules/Work';
 import Personal from './modules/Personal';
-import {Frame, Scroll} from 'framer';
+import Medium from './modules/Medium';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Landing />
           <Work />
           <Personal />
+          <Medium />
         </div>
   );
 }

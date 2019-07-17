@@ -29,8 +29,8 @@ class Work extends Component{
     render(){
         return(
             <div className="work-background" id="work">
-                <div className="container center-everything full-height">
-                    <motion.div className="greg-flex-row stagger" variants={stagger} initial="hidden" animate="visible">
+                <div className="greg-container greg-full-height greg-center-everything">
+                    <motion.div className=" row stagger" variants={stagger} initial="hidden" animate="visible">
                     {this.renderJobs()}
                     </motion.div>
                 </div>

@@ -8,7 +8,7 @@ class Landing extends Component{
     render(){
         return(
             <div className="landing-background">
-                <div className="container center-everything full-height">
+                <div className="greg-container greg-center-everything greg-full-height">
                     <Card />
                     <br />
                     <br />
