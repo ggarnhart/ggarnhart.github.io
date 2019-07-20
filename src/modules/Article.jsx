@@ -6,7 +6,7 @@ import "./landing.css";
 class Article extends Component {
     render(){
         return(
-            <div className="col col-md-6" key={this.props.link}>
+            <div className="col-md-6 col-sm-12" key={this.props.link}>
                 <div className=" greg-article white-background">
                     <img className='greg-article-image' src={this.props.img} />
                     <div className="greg-inline">

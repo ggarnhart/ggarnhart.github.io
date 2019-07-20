@@ -186,3 +186,11 @@
 .white-text{
     color: white !important;
 }
+
+.red-background{
+    background-color: #FF4458;
+}
+
+.blue-background{
+    background-color: #0D2235;
+}
