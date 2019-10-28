@@ -4,7 +4,8 @@ export default [
     duration: "3 Months",
     company: "Bandwidth",
     website: "https://Bandwidth.com",
-    description: "Built cool things, ate cookies, learned a lot.",
+    description:
+      "Worked with the R&D team to develop & prototype numerous real-time communication demos. Learned ReactJS and NodeJS basics, made friends, and ate some cookies.",
     key: 0
   },
   {
@@ -13,7 +14,7 @@ export default [
     company: "The Alan B. Miller Entrepreneurship Center",
     website: "https://millercenter.mason.wm.edu/",
     description:
-      "Worked to promote center events, build out event tracking platform, and engage community.",
+      "Worked to promote center events, build out event tracking platform, and engage community. Led a team of 2 interns, facilitated a lesson in how to develop MVPs, and established roadmap for how to onboard future fellows.",
     key: 1
   },
   {
@@ -22,7 +23,7 @@ export default [
     company: "My Candid Campus",
     website: "https://mycandidcampus.com",
     description:
-      "Built a private college tours business that spanned 60 campuses, serving over 200 students before selling a portion of our entities to Campus Sherpa.",
+      "Built a private college tours business that spanned 60 campuses, serving over 200 students before selling a portion of our entities to Campus Sherpa. Won over $10,000 through various startup competitions. Learned more in 2 years than any classroom has given me in 12.",
     key: 2
   },
   {

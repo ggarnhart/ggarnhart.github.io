@@ -16,6 +16,14 @@ export default [
     _key: 1
   },
   {
+    title: "Miller EC Mentor Network Email System",
+    description:
+      "The Mentor Network page allows MillerEC members to send emails to mentors in the MillerEC network without any private contact information being revealed.",
+    link: "https://mentor-network.herokuapp.com",
+    website_name: "Get Some Advice",
+    _key: 1
+  },
+  {
     title: "Ignorance Blocker",
     description:
       "Chrome extension that warns site visitors of misinformation on a catalog of about 20 sites.",

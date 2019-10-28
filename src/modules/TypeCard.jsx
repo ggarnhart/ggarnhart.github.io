@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { motion } from "framer-motion";
 import Typical from "react-typical";
 
-class Card extends Component {
+class TypeCard extends Component {
   render() {
     var variants = {
       hidden: { opacity: 0 },
@@ -16,19 +16,18 @@ class Card extends Component {
         variants={variants}
         className="greg-card"
       >
-        <div className="greg-flex-row">
-          <motion.a
-            className="greg-btn purple-background no-decoration"
-            href="mailto:greg.garnhart12@gmail.com"
-            target="_blank"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            Want to chat?
-          </motion.a>
-        </div>
+        <Typical
+          steps={[
+            "Hi there! My name is Greg 👋",
+            2500,
+            "I'm a senior doubling in Computer Science and Marketing.",
+            2500,
+            "Let's build something together"
+          ]}
+          wrapper="h1"
+        />
       </motion.div>
     );
   }
 }
-export default Card;
+export default TypeCard;
