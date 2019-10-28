@@ -8,7 +8,7 @@ class Other extends Component {
       <div className="row">
         <div className="col-md-6 blue-background white-text">
           <h6 className="greg-text-center greg-margin-top no-margin-bottom">
-            Find me on one of these fine platforms:
+            Find me on any of these fine platforms:
           </h6>
           <div className="container">
             <div className="row icon-row">
@@ -28,7 +28,7 @@ class Other extends Component {
                     className="greg-icon-link"
                     href="https://linkedin.com/in/greggarnhart"
                   >
-                    <i class="fab fa-linkedin-in" />
+                    <i className="fab fa-linkedin-in" />
                   </a>
                 </h2>
               </div>
@@ -38,7 +38,7 @@ class Other extends Component {
                     className="greg-icon-link"
                     href="https://instagram.com/ggarnhart"
                   >
-                    <i class="fab fa-instagram" />
+                    <i className="fab fa-instagram" />
                   </a>
                 </h2>
               </div>
@@ -48,7 +48,7 @@ class Other extends Component {
                     className="greg-icon-link"
                     href="https://medium.com/@GGarnhart"
                   >
-                    <i class="fab fa-medium" />
+                    <i className="fab fa-medium" />
                   </a>
                 </h2>
               </div>
@@ -65,7 +65,7 @@ class Other extends Component {
                 <div className="col">
                   <h2 className="no-margin">
                     <a href="https://reactjs.org/" className="greg-icon-link">
-                      <i class="fab fa-react" />
+                      <i className="fab fa-react" />
                     </a>
                   </h2>
                 </div>
@@ -75,7 +75,7 @@ class Other extends Component {
                       href="https://github.com/ggarnhart/site"
                       className="greg-icon-link"
                     >
-                      <i class="fab fa-github" />
+                      <i className="fab fa-github" />
                     </a>
                   </h2>
                 </div>

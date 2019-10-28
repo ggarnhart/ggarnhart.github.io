@@ -143,6 +143,10 @@
   margin-left: 2em;
 }
 
+.left-indent-small {
+  margin-left: 0.75em;
+}
+
 .greg-margin-bottom {
   margin-bottom: 1em;
 }
