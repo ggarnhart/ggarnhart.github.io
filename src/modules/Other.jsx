@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Likes from "./Likes";
 import "./landing.css";
 
 class Other extends Component {

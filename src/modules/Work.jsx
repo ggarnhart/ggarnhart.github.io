@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Card from "./Card.jsx";
 import "./landing.css";
 import { motion } from "framer-motion";
 import resumeListings from "./resume.js";

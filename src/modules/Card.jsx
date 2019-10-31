@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
-import Typical from "react-typical";
 
 class Card extends Component {
   render() {
