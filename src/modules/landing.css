@@ -227,3 +227,17 @@
 .bolder {
   font-weight: bolder;
 }
+
+.type-landing {
+  background-color: white;
+  color: #292c34;
+  font-family: "Nunito", sans-serif;
+}
+
+.dark-font {
+  color: #292c34;
+}
+
+.center-text {
+  text-align: center;
+}

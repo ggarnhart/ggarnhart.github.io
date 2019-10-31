@@ -8,12 +8,11 @@ export default [
     _key: 0
   },
   {
-    title: "Miller EC Leaderboard",
-    description:
-      "Simple react app that displays the leaders in enegagement at the Miller Entrepreneurship Center.",
-    link: "https://ggarnhart.github.io/EC-Leaderboard/",
-    website_name: "See True Leadership",
-    _key: 1
+    title: "The Band Dot",
+    description: "Coded a very basic website for the band Dot.",
+    link: "https://ggarnhart.github.io/dot",
+    website_name: "Check them out",
+    key: 5
   },
   {
     title: "Miller EC Mentor Network Email System",
@@ -22,6 +21,14 @@ export default [
     link: "https://mentor-network.herokuapp.com",
     website_name: "Get Some Advice",
     _key: 1
+  },
+  {
+    title: "Miller EC Leaderboard",
+    description:
+      "Simple react app that displays the leaders in enegagement at the Miller Entrepreneurship Center.",
+    link: "https://ggarnhart.github.io/EC-Leaderboard/",
+    website_name: "See True Leadership",
+    _key: 4
   },
   {
     title: "Ignorance Blocker",
