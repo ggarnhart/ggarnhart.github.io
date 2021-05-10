@@ -10,7 +10,7 @@
     "framer": "^1.0.14",
     "framer-motion": "^1.2.3",
     "gh-pages": "^2.1.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.8.6",
